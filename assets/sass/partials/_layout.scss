@@ -1,0 +1,35 @@
+// Styles for main layout
+// --------------------------------------------------
+
+body {
+  padding-top: 50px;
+  height:100%;
+  width:100%;
+  position:relative;
+  margin:0;
+  background-size:cover;
+  background-position:center center;
+}
+
+
+#main-wrapper {
+  //padding-top: 70px;
+  // padding-bottom: 70px;
+  .container {
+    padding-top: 20px;
+    //padding-bottom: 20px;
+    background-color: rgba(212,216,209, 0.70);
+  }
+}
+
+
+// Footer
+#footer {
+  background-color: $brand-info;
+  padding: 0;
+  margin: 0;
+  .container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}  

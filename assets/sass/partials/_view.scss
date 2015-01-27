@@ -1,0 +1,32 @@
+// Styles for Views
+// --------------------------------------------------
+
+// General
+// --------------------------------------------------
+.view {
+  .view-header {
+    margin-bottom: 18px;
+     h1, h2, h3 {
+      margin-top: 0;
+    }
+    p.lead {
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+  .view-content {
+    .views-row {
+      padding-bottom: 20px;
+      .container {
+        width: auto;
+        padding: 0;
+      }
+    }
+  }
+  .view-footer {
+    margin-top: 18px;
+  }
+}
+
+

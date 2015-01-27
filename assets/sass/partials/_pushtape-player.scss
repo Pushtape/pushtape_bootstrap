@@ -1,0 +1,37 @@
+/**
+ * Pushtape-player overrides (see: pushtape-player.css)
+ */
+.pt-scrubber .pt-statusbar {
+  background:#FDFDFD;
+}
+.pt-scrubber .pt-statusbar .pt-loading  {
+  background:#F6F6F6;
+}
+.pt-scrubber .pt-statusbar .pt-handle {
+}
+.pt-scrubber .pt-statusbar .pt-position {
+  background-color: #999999;
+}
+.pushtape-player-audio:before,
+.pt-play-pause .genericon,
+.pt-next .genericon, .pt-next:hover .genericon,
+.pt-previous .genericon, .pt-previous:hover .genericon {
+  /* Override player button text color here. */
+  color:rgba(0, 0, 0, .8);
+}
+.pt-next {
+  border:0;
+  padding-left:1.4em;
+  margin:0;
+  text-align:center;
+}
+.pt-previous {
+  padding-right:1.4em;
+  margin:0;
+  text-align:center;
+}
+.pt-current-track-title {
+  font-style:italic;
+  font-size:1em;
+  color:#999;
+}
