@@ -3,37 +3,17 @@
 
 // Custom Navigation Bar
 
-/*
-.navbar-default {
-  background-color: $navbar-default-color;
-  border-color: transparent;
-  .navbar-brand {
-    color: $brand-primary;
-    */
-/*.script-font;
-    &:hover,
-    &:focus,
-    &:active,
-    &.active {
-      color: darken($brand-primary, 10%);*//*
 
-    }
+.navbar-default {
+  //background-color: $navbar-default-color;
+  border-color: transparent;
+  margin: 0 auto;
+  .navbar-brand {
+    padding: 15px 15px 15px 0;
+    color: $brand-primary;
   }
-  .navbar-collapse {
-    border-color: fade(white, 2%);
-  }
-  .navbar-toggle {
-    background-color: $brand-primary;
-    border-color: $brand-primary;
-    .icon-bar {
-      background-color: white;
-    }
-    &:hover,
-    &:focus {
-      background-color: $brand-primary;
-    }
-  }
-*/
+}
+
 
 
 

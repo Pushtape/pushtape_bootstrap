@@ -32,3 +32,11 @@ core = "7.x"
 project = "radix"
 datestamp = "1418143643"
 
+
+
+; Information added by drush on 2015-02-03
+version = "7.x-1.x-panels-dev"
+core = "7.x"
+project = "pushtape_bootstrap"
+datestamp = "1423002221"
+

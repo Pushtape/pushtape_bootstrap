@@ -11953,7 +11953,7 @@ fieldset .panel-body {
 
 /* line 73, ../../../../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass_radix-3.1.3/stylesheets/compass_radix/_form.scss */
 html.js input.form-autocomplete {
-  background: url('../images/throbber.gif?1419015602') no-repeat right 8px white !important;
+  background: url('../images/throbber.gif?1423002251') no-repeat right 8px white !important;
 }
 /* line 76, ../../../../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass_radix-3.1.3/stylesheets/compass_radix/_form.scss */
 html.js input.throbbing {
@@ -12262,29 +12262,47 @@ a:link {
 }
 
 /* line 4, ../sass/partials/_layout.scss */
-body {
-  padding-top: 50px;
+html, body {
   height: 100%;
   width: 100%;
-  position: relative;
   margin: 0;
   background-size: cover;
   background-position: center center;
 }
 
-/* line 18, ../sass/partials/_layout.scss */
-#main-wrapper .container {
-  padding-top: 20px;
-  background-color: rgba(212, 216, 209, 0.7);
-}
-
-/* line 27, ../sass/partials/_layout.scss */
-#footer {
+/* line 13, ../sass/partials/_layout.scss */
+#header {
   background-color: #5bc0de;
   padding: 0;
   margin: 0;
 }
-/* line 31, ../sass/partials/_layout.scss */
+
+/* line 20, ../sass/partials/_layout.scss */
+#main-wrapper {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 10px auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+/* line 27, ../sass/partials/_layout.scss */
+#main-wrapper .page-header {
+  margin: 9px 0;
+}
+/* line 30, ../sass/partials/_layout.scss */
+#main-wrapper .container {
+  background-color: rgba(212, 216, 209, 0.7);
+}
+
+/* line 39, ../sass/partials/_layout.scss */
+#footer {
+  background-color: #5bc0de;
+  height: 60px;
+  padding: 0;
+  margin: 0;
+}
+/* line 44, ../sass/partials/_layout.scss */
 #footer .container {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -12301,38 +12319,17 @@ body {
   font-size: 26px;
 }
 
-/*
+/* line 7, ../sass/partials/_menu.scss */
 .navbar-default {
-  background-color: $navbar-default-color;
   border-color: transparent;
-  .navbar-brand {
-    color: $brand-primary;
-    */
-/*.script-font;
-    &:hover,
-    &:focus,
-    &:active,
-    &.active {
-      color: darken($brand-primary, 10%);*/
-                                           /*
+  margin: 0 auto;
+}
+/* line 11, ../sass/partials/_menu.scss */
+.navbar-default .navbar-brand {
+  padding: 15px 15px 15px 0;
+  color: #577492;
+}
 
-    }
-  }
-  .navbar-collapse {
-    border-color: fade(white, 2%);
-  }
-  .navbar-toggle {
-    background-color: $brand-primary;
-    border-color: $brand-primary;
-    .icon-bar {
-      background-color: white;
-    }
-    &:hover,
-    &:focus {
-      background-color: $brand-primary;
-    }
-  }
-*/
 /* line 7, ../sass/partials/_view.scss */
 .view .view-header {
   margin-bottom: 18px;
