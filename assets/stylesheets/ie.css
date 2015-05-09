@@ -2376,7 +2376,7 @@ div.vertical-tabs ul.vertical-tabs-list li a {
 /* line 72, ../../../../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass_radix-3.1.3/stylesheets/compass_radix/_structure.scss */
 div.vertical-tabs ul.vertical-tabs-list li a:hover {
   color: #fff;
-  background: #577492;
+  background: #2d7b91;
   text-decoration: none;
 }
 /* line 76, ../../../../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass_radix-3.1.3/stylesheets/compass_radix/_structure.scss */
@@ -2534,7 +2534,7 @@ ul.dropdown-menu li {
 
 /* line 227, ../../../../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass_radix-3.1.3/stylesheets/compass_radix/_structure.scss */
 .calendar-calendar table.mini td {
-  border: 1px solid #a8a8a1 !important;
+  border: 1px solid #eeeeee !important;
   padding: 5px;
 }
 
@@ -2588,7 +2588,7 @@ body.ctools-modal-open {
 }
 /* line 38, ../../../../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass_radix-3.1.3/stylesheets/compass_radix/_modal.scss */
 #modalContent .panels-section-column-categories .btn {
-  border: 1px solid #aa9a66 !important;
+  border: 1px solid #999999 !important;
   line-height: inherit;
   margin: 0;
   text-align: left;
@@ -2603,7 +2603,7 @@ body.ctools-modal-open {
 }
 /* line 50, ../../../../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass_radix-3.1.3/stylesheets/compass_radix/_modal.scss */
 #modalContent .panels-categories-box a.active {
-  background: #a8a8a1;
+  background: #eeeeee;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
@@ -2746,7 +2746,7 @@ ul.nav > li.dropdown:after {
 }
 /* line 35, ../../../../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass_radix-3.1.3/stylesheets/compass_radix/_menu.scss */
 .nav-expanded > li > a:hover, .nav-expanded > li > a:focus, .nav-expanded > li > a.active, .nav-expanded > li > a.active-trail {
-  color: #3a4e62;
+  color: #1b4957;
   background: none;
 }
 /* line 40, ../../../../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass_radix-3.1.3/stylesheets/compass_radix/_menu.scss */
@@ -2772,7 +2772,7 @@ ul.nav > li.dropdown:after {
 }
 /* line 53, ../../../../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass_radix-3.1.3/stylesheets/compass_radix/_menu.scss */
 .nav-expanded > li ul.dropdown-menu li a:hover, .nav-expanded > li ul.dropdown-menu li a:focus, .nav-expanded > li ul.dropdown-menu li a.active, .nav-expanded > li ul.dropdown-menu li a.active-trail {
-  color: #3a4e62;
+  color: #1b4957;
   background: none;
 }
 /* line 59, ../../../../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass_radix-3.1.3/stylesheets/compass_radix/_menu.scss */
@@ -2793,7 +2793,7 @@ ul.nav > li.dropdown:after {
 }
 /* line 71, ../../../../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass_radix-3.1.3/stylesheets/compass_radix/_menu.scss */
 .nav-expanded > li.open > a:hover, .nav-expanded > li.open > a:focus, .nav-expanded > li.open > a.active, .nav-expanded > li.open > a.active-trail {
-  color: #3a4e62;
+  color: #1b4957;
   background: none;
 }
 
@@ -2906,7 +2906,7 @@ form .field-multiple-table thead th label {
 /* line 48, ../../../../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass_radix-3.1.3/stylesheets/compass_radix/_form.scss */
 form .description {
   margin: 2px 0;
-  color: #b74934;
+  color: #555555;
 }
 
 /* line 55, ../../../../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass_radix-3.1.3/stylesheets/compass_radix/_form.scss */
@@ -2928,7 +2928,7 @@ fieldset .panel-body {
 
 /* line 73, ../../../../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass_radix-3.1.3/stylesheets/compass_radix/_form.scss */
 html.js input.form-autocomplete {
-  background: url('../images/throbber.gif?1423002251') no-repeat right 8px white !important;
+  background: url('../images/throbber.gif?1431127038') no-repeat right 8px white !important;
 }
 /* line 76, ../../../../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass_radix-3.1.3/stylesheets/compass_radix/_form.scss */
 html.js input.throbbing {
@@ -3247,12 +3247,12 @@ html, body {
 
 /* line 13, ../sass/partials/_layout.scss */
 #header {
-  background-color: #5bc0de;
+  background-color: #7ddaf5;
   padding: 0;
   margin: 0;
 }
 
-/* line 20, ../sass/partials/_layout.scss */
+/* line 23, ../sass/partials/_layout.scss */
 #main-wrapper {
   min-height: 100%;
   height: auto;
@@ -3261,23 +3261,23 @@ html, body {
   /* Pad bottom by footer height */
   padding: 0 0 60px;
 }
-/* line 27, ../sass/partials/_layout.scss */
+/* line 30, ../sass/partials/_layout.scss */
 #main-wrapper .page-header {
   margin: 9px 0;
 }
-/* line 30, ../sass/partials/_layout.scss */
+/* line 33, ../sass/partials/_layout.scss */
 #main-wrapper .container {
   background-color: rgba(212, 216, 209, 0.7);
 }
 
-/* line 39, ../sass/partials/_layout.scss */
+/* line 42, ../sass/partials/_layout.scss */
 #footer {
-  background-color: #5bc0de;
+  background-color: #7ddaf5;
   height: 60px;
   padding: 0;
   margin: 0;
 }
-/* line 44, ../sass/partials/_layout.scss */
+/* line 47, ../sass/partials/_layout.scss */
 #footer .container {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -3287,22 +3287,131 @@ html, body {
 .page-header {
   margin-bottom: 9px;
   padding: 0px;
+  border: 0;
 }
 
-/* line 9, ../sass/partials/_structure.scss */
+/* line 10, ../sass/partials/_structure.scss */
 .page-header h1 {
   font-size: 26px;
+  border: 0;
+}
+
+/* Remove the border on tbody that system puts in */
+/* line 16, ../sass/partials/_structure.scss */
+.views-view-grid tbody {
+  border: none;
+}
+
+/* Styles for tabs and pills */
+/* line 21, ../sass/partials/_structure.scss */
+.item-list ul {
+  margin: 10px 0px;
+  padding: 0px;
+}
+
+/* line 25, ../sass/partials/_structure.scss */
+.item-list ul li {
+  margin: 0px 10px 0 0;
+  padding: 0px;
 }
 
 /* line 7, ../sass/partials/_menu.scss */
 .navbar-default {
   border-color: transparent;
-  margin: 0 auto;
+  background-color: #7ddaf5;
+  margin: 0;
 }
-/* line 11, ../sass/partials/_menu.scss */
+
+/* line 13, ../sass/partials/_menu.scss */
 .navbar-default .navbar-brand {
-  padding: 15px 15px 15px 0;
-  color: #577492;
+  font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+  color: #2d7b91;
+  text-transform: uppercase;
+  padding: 10px 15px 10px 0;
+  line-height: 30px;
+}
+
+/* line 24, ../sass/partials/_menu.scss */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
+  color: #2d7b91;
+}
+
+/* line 32, ../sass/partials/_menu.scss */
+.navbar-default .navbar-toggle {
+  border-color: #2d7b91;
+  background-color: #2d7b91;
+}
+
+/* line 37, ../sass/partials/_menu.scss */
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #222222;
+}
+
+/* line 42, ../sass/partials/_menu.scss */
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #2d7b91;
+}
+
+/* line 46, ../sass/partials/_menu.scss */
+.navbar-default .nav li a {
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #222222;
+}
+
+/* line 55, ../sass/partials/_menu.scss */
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+  outline: 0;
+  color: #2d7b91;
+}
+
+/* line 60, ../sass/partials/_menu.scss */
+.navbar-default .navbar-nav > .active > a {
+  border-radius: 0;
+  color: #222222;
+  background-color: #2d7b91;
+}
+
+/* line 67, ../sass/partials/_menu.scss */
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #222222;
+  background-color: #2d7b91;
+}
+
+/* line 72, ../sass/partials/_menu.scss */
+.navbar-brand {
+  float: left;
+  padding-top: 15px;
+  padding-right: 10px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  font-size: 20px;
+  line-height: 23px;
+  height: 50px;
+}
+
+/* line 87, ../sass/partials/_menu.scss */
+.navbar-default .navbar-nav > .active > a {
+  border-radius: 3px;
+}
+
+/* line 91, ../sass/partials/_menu.scss */
+.navbar-default.navbar-shrink {
+  padding: 10px 0;
+  background-color: #222;
+}
+
+/* line 96, ../sass/partials/_menu.scss */
+.navbar-default.navbar-shrink .navbar-brand {
+  font-size: 1.5em;
 }
 
 /* line 7, ../sass/partials/_view.scss */

@@ -12,7 +12,7 @@
 ?>
 <header id="header" class="header" role="header">
   <div class="container">
-    <nav class="navbar navbar-default  navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-default" role="navigation">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
@@ -75,6 +75,6 @@
     <?php if ($copyright): ?>
       <small class="copyright pull-left"><?php print $copyright; ?></small>
     <?php endif; ?>
-    <small class="pull-right"><a href="#"><?php print t('Back to Top'); ?></a></small>
+    <small class="pull-right"><a href="#top"><?php print t('Back to Top'); ?></a></small>
   </div>
 </footer>
