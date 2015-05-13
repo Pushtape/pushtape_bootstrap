@@ -2928,7 +2928,7 @@ fieldset .panel-body {
 
 /* line 73, ../../../../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass_radix-3.1.3/stylesheets/compass_radix/_form.scss */
 html.js input.form-autocomplete {
-  background: url('../images/throbber.gif?1431127038') no-repeat right 8px white !important;
+  background: url('../images/throbber.gif?1431379360') no-repeat right 8px white !important;
 }
 /* line 76, ../../../../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass_radix-3.1.3/stylesheets/compass_radix/_form.scss */
 html.js input.throbbing {
@@ -3010,8 +3010,8 @@ html.js fieldset.collapsed {
   min-height: 20px;
   padding: 19px;
   margin-bottom: 20px;
-  background-color: whitesmoke;
-  border: 1px solid #e3e3e3;
+  background-color: #eeefed;
+  border: 1px solid #dcdfd9;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -3050,8 +3050,8 @@ html.js fieldset.collapsed {
   min-height: 20px;
   padding: 19px;
   margin-bottom: 20px;
-  background-color: whitesmoke;
-  border: 1px solid #e3e3e3;
+  background-color: #eeefed;
+  border: 1px solid #dcdfd9;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -3412,6 +3412,12 @@ html, body {
 /* line 96, ../sass/partials/_menu.scss */
 .navbar-default.navbar-shrink .navbar-brand {
   font-size: 1.5em;
+}
+
+/* line 5, ../sass/partials/_panel.scss */
+.panel {
+  border: none;
+  box-shadow: none;
 }
 
 /* line 7, ../sass/partials/_view.scss */

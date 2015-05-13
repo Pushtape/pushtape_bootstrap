@@ -26,7 +26,7 @@ $form['pane_styles']['pane_styles_settings'] = array(
     '#type' => 'container',
     '#states' => array(
         'invisible' => array(
-            ':input[name="pane_styles_toggle"]' => array('checked' => FALSE),
+            ':input[name="pane_styles_toggle"]' => array('checked' => TRUE),
         ),
     ),
 );

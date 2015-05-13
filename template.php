@@ -41,6 +41,7 @@ function pushtape_bootstrap_preprocess_page(&$variables) {
  *  makes sure that your image does not go beyond it's container
  * when you are using a sub theme you need to target the parent eg bootstrap
  */
-function pushtape_preprocess_image(&$vars) {
+function pushtape_bootstrap_preprocess_image(&$vars) {
 $vars['attributes']['class'][] = "img-responsive";
 }
+
