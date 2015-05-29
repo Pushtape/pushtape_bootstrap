@@ -21,7 +21,7 @@ function pushtape_bootstrap_form_system_theme_settings_alter(&$form, &$form_stat
     '#title' => t('Copyright'),
     '#type' => 'text_format',
     '#format' => $copyright['format'],
-    '#default_value' => $copyright['value'] ? $copyright['value'] : t('Powered by Pushtape'),
+    '#default_value' => $copyright['value'] ? $copyright['value'] : t('Powered by Pushtape and Panopoly'),
   );
 
   // Return the additional form widgets.
