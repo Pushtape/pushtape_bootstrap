@@ -1,6 +1,6 @@
 <?php
 /**
- * @file panels-pane--bootstrap-panel.tpl.php
+ * @file panels-pane.tpl.php
  * Main panel pane template
  *
  * Variables available:
@@ -20,18 +20,20 @@
 <?php if ($pane_prefix): ?>
   <?php print $pane_prefix; ?>
 <?php endif; ?>
-<div class="<?php print $classes; ?>" <?php print $id; ?>>
+<<?php print $wrapper_element; ?> <?php print $wrapper_attributes; ?>>
   <?php if ($admin_links): ?>
     <?php print $admin_links; ?>
   <?php endif; ?>
 
   <?php print render($title_prefix); ?>
   <?php if ($title): ?>
-    <div class="panel-heading">
-      <h3<?php print $title_attributes; ?>><?php print $title; ?></h3>
-    </div>
+    <h4<?php print $title_attributes; ?>><?php print $title; ?></h4>
   <?php endif; ?>
   <?php print render($title_suffix); ?>
+
+  <?php if ($collapsible): ?>
+     <div id="<?php print $id; ?>" class="panel-collapse collapse<?php print (!$collapsed ? ' in' : ''); ?>">
+  <?php endif; ?>
 
   <?php if ($feeds): ?>
     <div class="feed">
@@ -39,26 +41,33 @@
     </div>
   <?php endif; ?>
 
-  <div class="pane-content panel-body panel">
+  <<?php print $content_element; ?> <?php print $content_attributes; ?>>
     <?php print render($content); ?>
   </div>
 
-  <?php if ($links || $more): ?>
-    <div class="panel-footer">
-      <?php if ($links): ?>
-        <div class="links">
-          <?php print $links; ?>
-        </div>
-      <?php endif; ?>
+  <?php if ($links): ?>
+    <div class="links">
+      <?php print $links; ?>
+    </div>
+  <?php endif; ?>
 
+  <?php if ($more || $footer): ?>
+    <<?php print $footer_element; ?> <?php print $footer_attributes; ?>>
       <?php if ($more): ?>
-        <div class="more-link">
+        <div class="more-links">
           <?php print $more; ?>
         </div>
       <?php endif; ?>
+      <?php if ($footer): ?>
+        <?php print $footer; ?>
+      <?php endif; ?>
+    </<?php print $footer_element; ?>>
+  <?php endif; ?>
+
+  <?php if ($collapsible): ?>
     </div>
   <?php endif; ?>
-</div>
+</<?php print $wrapper_element; ?>>
 <?php if ($pane_suffix): ?>
   <?php print $pane_suffix; ?>
 <?php endif; ?>
